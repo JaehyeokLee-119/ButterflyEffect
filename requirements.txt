@@ -1,0 +1,8 @@
+bs4
+tqdm
+langchain==0.2.1
+langchain-community==0.2.1
+openai==1.40.5
+pandas==1.5.3
+sentence-transformers==2.2.2
+faiss-gpu==1.7.2

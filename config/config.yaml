@@ -1,0 +1,10 @@
+path:
+  train_path: ./data/hotpotqa_train.joblib
+  test_path:  ./data/hotpotqa_wiki_test.joblib
+  wiki_index_path: ./DB/wiki_index.pickle
+  faiss_index_path: ./DB/faiss_index
+  retriever_model: sentence-transformers/all-MiniLM-L6-v2
+params:
+  max_step: 10
+  model: gpt-4o-2024-08-06
+  
